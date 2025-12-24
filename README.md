@@ -23,7 +23,12 @@ In this notebook, I explore the two primary ways to estimate the optimal paramet
 - **A. The Analytical Approach: Normal Equation**
 
 
+
+
 The Normal Equation is a mathematical formula that solves for θ directly in a single step without the need for iterations.
+
+
+
    **Formula:**
 
   <img width="500" height="90" alt="image" src="https://github.com/user-attachments/assets/d2417cc4-fadf-41a5-ac0b-214a96cb21d7" />
@@ -58,6 +63,12 @@ For Linear Regression to perform optimally, several assumptions should hold true
 + Homoscedasticity: The variance of residual errors should be constant across all levels of the independent variables.
 - No Multicollinearity: Independent variables should not be highly correlated with each other, as this can make the Normal Equation unstable.
 * Sensitivity to Outliers: Since we use MSE (squaring the errors), the model is highly sensitive to outliers, which can disproportionately influence the slope of the regression line.
+
+
+
+# Requirements
+NumPy: For matrix operations.
+Scikit-learn: Used only for loading real-world datasets and feature scaling.
 
  
 
