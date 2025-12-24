@@ -20,7 +20,7 @@ To find the best-fitting line, we use the Mean Squared Error (MSE) as our Loss F
 
 ## 3. Implementation Approaches
 In this notebook, I explore the two primary ways to estimate the optimal parameters (θ):
-- A. The Analytical Approach: Normal Equation (Closed-Form Solution)
+- **A. The Analytical Approach: Normal Equation**
 The Normal Equation is a mathematical formula that solves for θ directly in a single step without the need for iterations.
 
    **Formula:**
@@ -36,7 +36,8 @@ Cons: Computationally expensive for very large datasets (due to matrix inversion
 
 
 
-* B. The Numerical Approach: Gradient Descent (Iterative Optimization)
+* **B. The Numerical Approach: Gradient Descent**
+  
 Gradient Descent is an optimization algorithm that minimizes the Loss Function by iteratively updating the weights in the opposite direction of the gradient.
 
 
