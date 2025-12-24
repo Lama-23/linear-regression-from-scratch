@@ -24,16 +24,21 @@ In this notebook, I explore the two primary ways to estimate the optimal paramet
 The Normal Equation is a mathematical formula that solves for θ directly in a single step without the need for iterations.
 
 **Formula:**
+
+
 <img width="500" height="90" alt="image" src="https://github.com/user-attachments/assets/d2417cc4-fadf-41a5-ac0b-214a96cb21d7" />
+
 
 Pros: Exact solution, no hyperparameter tuning (no Learning Rate needed).
 Cons: Computationally expensive for very large datasets (due to matrix inversion).
 
 
+
 * B. The Numerical Approach: Gradient Descent (Iterative Optimization)
 Gradient Descent is an optimization algorithm that minimizes the Loss Function by iteratively updating the weights in the opposite direction of the gradient.
 
-- Process: Starts with random initialization and takes small steps (governed by the Learning Rate) towards the global minimum.
-* Pros: Efficient for large-scale datasets and high-dimensional features.
-+ Cons: Requires Feature Scaling and careful tuning of the Learning Rat (α)
+
+ Process: Starts with random initialization and takes small steps (governed by the Learning Rate) towards the global minimum.
+ Pros: Efficient for large-scale datasets and high-dimensional features.
+ Cons: Requires Feature Scaling and careful tuning of the Learning Rat (α)
 
