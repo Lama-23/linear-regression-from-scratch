@@ -26,7 +26,7 @@ In this notebook, I explore the two primary ways to estimate the optimal paramet
 The Normal Equation is a mathematical formula that solves for θ directly in a single step without the need for iterations.
    **Formula:**
 
-     <img width="500" height="90" alt="image" src="https://github.com/user-attachments/assets/d2417cc4-fadf-41a5-ac0b-214a96cb21d7" />
+  <img width="500" height="90" alt="image" src="https://github.com/user-attachments/assets/d2417cc4-fadf-41a5-ac0b-214a96cb21d7" />
 
 
 Pros: Exact solution, no hyperparameter tuning (no Learning Rate needed).
