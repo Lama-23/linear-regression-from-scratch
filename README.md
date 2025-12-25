@@ -10,7 +10,7 @@ The model assumes a linear relationship:
 
 Where:
 - X: Feature matrix.
-* θ(Theta): The parameter vector (Weights and Bias).
+* θ: The parameter vector (Weights and Bias).
 + y: Target/Output vector.
 
   
